@@ -57,5 +57,5 @@ variable "prefix" {
 variable "machine_size" {
   type = string
   description = "Virtual machine size"
-  default = Standard_F2"
+  default = "Standard_F2"
 }
