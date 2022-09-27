@@ -54,8 +54,8 @@ variable "prefix" {
   default = "cfy"
 }
 
-variable "machine_size" {
+variable "machine_type" {
   type = string
-  description = "Virtual machine size"
+  description = "Virtual machine type"
   default = "Standard_F2"
 }
