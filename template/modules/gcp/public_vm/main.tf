@@ -36,7 +36,7 @@ resource "google_compute_firewall" "firewall" {
 
 resource "google_compute_instance" "vm" {
     name         = "${var.prefix}-vm-${random_id.suffix.hex}"
-    machine_type = "f1-micro"
+    machine_type = "${var.machine_type}"
 
     metadata = {
         ssh-keys = "${var.admin_user}:${var.admin_key_public}"

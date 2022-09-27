@@ -45,3 +45,9 @@ variable "prefix" {
   description = "Resource name prefix"
   default = "cfy"
 }
+
+variable "machine_type" {
+  type = string
+  description = "Machine type"
+  default = "f1-micro"
+}

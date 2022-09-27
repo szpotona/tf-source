@@ -53,3 +53,9 @@ variable "prefix" {
   description = "Resource name prefix"
   default = "cfy"
 }
+
+variable "machine_size" {
+  type = string
+  description = "Virtual machine size"
+  default = Standard_F2"
+}
